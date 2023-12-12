@@ -39,6 +39,8 @@ img {
     text-decoration: none;
     color: #404bbf;
     position: relative;
+    padding: 24px 0;
+    display: block;
 }
 
 .visually-hidden {
@@ -421,6 +423,10 @@ img {
     width: calc((100% - 48px) / 3);
 }
 
+.portfolio-item:hover .overlay {
+    transform: translateY(0%);
+}
+
 .overlay-item {
     position: relative;
     overflow: hidden;
@@ -572,5 +578,9 @@ img {
 
 .link-team:hover,
 .link-team:focus {
-    color: #31d0aa;
+    background-color: #31d0aa;
+}
+
+.container .footer {
+    display: flex;
 }
