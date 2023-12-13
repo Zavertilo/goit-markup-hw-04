@@ -394,7 +394,7 @@ img {
 
 .link-team:hover,
 .link-team:focus {
-    background-color: #31d0aa;
+    background-color: #404BBF;
 }
 
 .team-contacts-icon-main {
@@ -595,4 +595,9 @@ img {
 .footer {
     display: flex;
     align-items: baseline;
+}
+
+.footer-hover:hover,
+.footer-hover:focus {
+    background-color: #31D0AA;
 }
